@@ -1,2 +1,2 @@
 # WhatsAppNameInserter
-Repositório em JavaScript que preenche automaticamente o nome de um atendente no WhatsApp ao pressionar "Enter", facilitando a interação e automação no processo de comunicação.
+Este repositório fornece uma solução simples e eficiente para preencher automaticamente o nome de um atendente ou usuário no WhatsApp com o pressionamento da tecla "Enter". Desenvolvido em JavaScript, ele facilita a inserção do nome diretamente na interface do WhatsApp, otimizando a interação e melhorando a experiência do usuário. Ideal para automação de tarefas em plataformas de atendimento ou suporte, o projeto pode ser facilmente integrado em sistemas existentes para acelerar o processo de comunicação no WhatsApp.
