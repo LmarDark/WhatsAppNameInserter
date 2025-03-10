@@ -17,7 +17,7 @@ Além disso, também existe uma versão que pode ser usada no TamperMonkey/Scrip
 ## Como usar (TamperMonkey)
 - Baixe a extensão do [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo);
 - Adicione um novo script;
-- Copie o código do arquivo script-tampermonkey.js;
+- Copie o código do arquivo script-TamperMonkey.js;
 - Cole o código na extensão do TamperMonkey;
 - Recarregue a página do Whatsapp e divirta-se.
 
