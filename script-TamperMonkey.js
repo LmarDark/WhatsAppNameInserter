@@ -39,9 +39,9 @@ function sendMessage(message) {
   textareaEl.dispatchEvent(new Event('change', { bubbles: true }));
 
   // Espera um momento para garantir que o conteúdo foi atualizado
-  setTimeout(() => {
-    // Clica no botão de enviar
-    const sendButton = mainEl.querySelector('[data-testid="send"]') || mainEl.querySelector('[data-icon="send"]');
+setTimeout(() => {
+    // Clica no novo botão de enviar
+    const sendButton = mainEl.querySelector('button[data-tab="11"][aria-label="Enviar"]');
     if (sendButton) {
       sendButton.click();
     } else {
@@ -65,7 +65,7 @@ const observer = new MutationObserver(() => {
   updateElements();
 });
 
-// Inicia a observação do DOM para detectar mudanças
+// Inicia a observação do DOM para detectar mudanças (ex.: troca de chat)
 observer.observe(document.body, {
   childList: true, // Observa a adição e remoção de nós
   subtree: true // Observa todos os descendentes
